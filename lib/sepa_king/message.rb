@@ -66,7 +66,7 @@ module SEPA
       end
     end
 
-    attr_writer :message_identification # Set unique identifer for the message
+    attr_accessor :message_identification # Set unique identifer for the message
 
     # Unique identifer for the whole message
     def message_identification
